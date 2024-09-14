@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import "primereact/resources/themes/saga-blue/theme.css"; // Theme
+import "primereact/resources/primereact.min.css"; // Core CSS
+import "primeicons/primeicons.css"; // Icons
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
